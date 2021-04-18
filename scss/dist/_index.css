@@ -1,0 +1,63 @@
+.titleBorder {
+  border-bottom: 3px solid #00807E;
+}
+
+.addTicketForm {
+  width: 100%;
+}
+
+.selectStyle {
+  border: 1px solid #CED4DA;
+  width: 225px;
+  padding: 8px 12px;
+}
+
+.col-4 {
+  max-width: calc(33.33333% - 30px) !important;
+}
+
+.ticketImg {
+  position: relative;
+  height: 180px;
+}
+.ticketImg a {
+  display: block;
+  overflow: hidden;
+}
+.ticketImg img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.ticketImg img:hover {
+  transform: scale(1.15);
+}
+
+.ticketRegion, .ticketRank {
+  position: absolute;
+  border-radius: 0 5px 5px 0px;
+  color: #FFF;
+  text-align: center;
+}
+
+.ticketRegion {
+  top: -13px;
+  left: 0;
+  font-size: 20px;
+  padding: 12px 20px;
+}
+
+.ticketRank {
+  bottom: -16px;
+  left: 0;
+  padding: 5px 8px;
+  min-width: 40px;
+}
+
+.ticketPrice span {
+  font-size: 32px;
+}
+
+.ticketName {
+  border-bottom: 2px solid #007572;
+}
